@@ -1,0 +1,38 @@
+/* Styling of HTML page using css */
+
+body {
+    background: radial-gradient(gray,black);
+    color:white;
+    padding: 25px;
+    text-align: center;
+}
+
+#main {
+
+    font-size:20px;
+    font-weight: bold;
+    margin:10px auto;
+}
+
+
+/* Styling the Wrapper Which Hold our circle */
+
+#wrapper {
+    margin:20px auto;
+    height:15em;
+    width:20em;
+    border:1px solid white;
+}
+
+
+#circle {
+    background-color:#ff6347;
+    height:200px;
+    width:200px;
+    border-radius: 100%;
+    margin:20px auto 0px auto;
+}
+
+#note {
+    margin-top: 10px;
+}
