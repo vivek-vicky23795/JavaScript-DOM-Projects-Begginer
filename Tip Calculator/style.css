@@ -1,0 +1,151 @@
+
+/* The Css file For the tip- calculator */
+
+
+/* The Universal Selectors :  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* The Element Selector :  */
+
+h1 {
+    margin-top:10px;
+    font-size:22px;
+    text-align: center;
+    color: teal;
+}
+
+body {
+    height : 100vh;
+    border : 2px solid red;
+}
+
+.bill_calculator {
+    
+    height : 44vh;
+    width: 40%;
+    margin: 10px auto;
+    background-color : lightblue;
+    box-shadow:0px 0px 12px black;
+
+}
+
+.bill_generator {
+    
+    height: 44vh;
+    width: 40%;
+    margin: 0px auto;
+    background-color: lightgoldenrodyellow;
+    box-shadow:0px 0px 12px black;
+
+}
+
+
+/* the bill calculator section starts here :  */
+
+h3 {
+    text-align: center;
+    color: tomato;
+    font-size: 20px;
+    margin-bottom: 10px; 
+}
+
+.bill_amount , .tip_amount , .split_number{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 27px 0px;
+    font-size: 18px;
+    font-weight: 200;
+    position: relative;
+
+}
+
+#bill,#tip,#split {
+    width : 40%;
+    height : 5vh;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+    border : 2px solid rgb(20, 159, 214);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#bill:focus , #tip:focus , #split:focus {
+    border: 2px solid green;
+}
+
+.img-1 , .img-2 {
+    position: absolute;
+    top:6px;
+    left:265px;
+}
+
+.btn-1 {
+
+    color : white;
+    background-color: darkcyan;
+    margin: 0px 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    outline:none
+}
+
+.btn-1:hover {
+    background-color: white;
+    color:darkcyan;
+} 
+
+/* the bill calculator section Ends here :  */
+
+
+
+/* the bill generator section starts here :  */
+
+h3 {
+    text-align: center;
+    color: tomato;
+    font-size: 20px;
+    margin-bottom: 10px; 
+}
+
+.total_bill_amount , .total_tip_amount , .total_person_amount{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 27px 0px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#total_bill,#total_tip,#total_per_person {
+    width : 40%;
+    height : 5vh;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+    border : 2px solid rgb(211, 211, 16);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#total_bill:focus , #total_tip:focus , #total_per_person:focus {
+        border: 2px solid green;    
+}
+
+/* the bill generator section Ends here :  */
+
+
+
+

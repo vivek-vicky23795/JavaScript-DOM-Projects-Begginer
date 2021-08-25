@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1> The Tip Calculator in Javascript </h1> 
+
+    <div class="container">
+
+        <div class="bill_calculator">
+
+            <form action="#" class="form_calculator" onsubmit="calAmount(event)">
+                <h3>Bill Calculator</h3>
+
+                <div class="bill_amount">
+                    <label id="label_bill">The Bill Amount (₹):</label> 
+                    <img  class='img-1'src="./Assets/rupee.png" alt="rupee" width='20px' height='16px'>
+                    <input type="number" step="0.000000000001" id="bill" min=0 max=1000000000 placeholder="0.00-Rupees ₹" required>
+                </div>
+
+                <div class="tip_amount">
+                    <label id="label_tip">The Tip Amount (%):</label>
+                    <img  class='img-2'src="./Assets/percent.png" alt="%" width='20px' height='16px'>
+                    <input type="number" step="0.000000000001" id="tip" placeholder=" percentage %" required>
+                </div>
+
+                <div class="split_number">
+                    <label id="label_split">The Number to Split:</label>
+                    <input type="number" name="split" id="split" placeholder="0" required>
+                </div>
+                
+                <input type="submit" value="Calculate" class="btn-1">
+            </form> 
+
+           
+
+        </div>
+
+        <div class="bill_generator">
+
+          
+
+            <form action="#" class="form_generator">
+                <h3>Bill generator</h3>
+
+                <div class="total_tip_amount">
+                    <label>Total Tip Amount (₹) :</label>
+                    <input type="number" step="0.000000000001" id="total_tip" >
+                </div>
+
+                <div class="total_bill_amount">
+                    <label>Total Bill Amount (₹) :</label>
+                    <input type="text"  id="total_bill" >
+                </div>
+
+                <div class="total_person_amount">
+                    <label>Total Amount/Person :</label>
+                    <input type="number" id="total_per_person" >
+                </div>
+
+            </form>
+
+
+        </div>
+
+
+    </div>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
