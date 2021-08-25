@@ -1,0 +1,40 @@
+
+
+body {
+    background-color:black;
+}
+
+.container {
+    text-align: center;
+} 
+
+h1 {
+    color:chocolate; 
+    letter-spacing:1px;
+    text-decoration: underline;
+} 
+
+h3 {
+    color: skyblue;
+    text-decoration: italic;
+} 
+
+.btns {
+
+    margin : 20px; 
+    
+}  
+
+#btn-1 , #btn-2 {
+
+    border: 1px solid black;
+    padding : 15px;
+    border-radius : 10px; 
+    background-color:darkslategray;
+    color:azure; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#btn-1 {
+    margin-left: 50px;
+}
