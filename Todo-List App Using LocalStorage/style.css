@@ -1,0 +1,52 @@
+/*  The CSS File.... */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body {
+    background : linear-gradient(221deg , lightblue,lightpink);
+}
+
+.btn-outline-dark:focus{
+    outline:none !important;
+    box-shadow: none;
+}
+
+.form-control:focus {
+   
+    outline:none !important;
+    box-shadow: none;
+}
+
+.fas {
+    float: right;
+    cursor: pointer;
+}
+
+.fas:hover {
+    color:red;
+}
+
+
+#card-1 {
+    background-color:rgb(179, 209, 221);
+} 
+
+#card-2 {
+    background-color: rgb(241, 231, 217);
+}
+
+.card-header {
+    
+    border-radius : 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: purple;
+    -webkit-box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.74); 
+    box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.74);
+}

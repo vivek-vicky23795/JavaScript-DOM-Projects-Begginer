@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Task List</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h2 class='text-center text-success mt-1 mb-2'> TODO-LIST APP </h2>
+    <h4 class="text-center text-danger"> Using Local Storage (Add,Delete,Filter) Tasks</h4>
+    <div class="conatiner-fluid">
+
+        <div class="row">
+
+            <div class="col-12-lg">
+
+                <div id='card-1' class="card p-3 border border-2 border-dark ms-4 me-4 mt-2 mb-2">
+                    <div class="card-header text-center"> ADD TASK LISTS </div>
+                    <div class="card-body">
+                        <div class="input-group mb-3">
+                            <input type="text" id="addTask" class="form-control" placeholder="Add Your Task Here.."
+                                autocomplete="off">
+                            <button id='btn-1' class="btn btn-outline-dark" type="button" id="button"> Button </button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div id='card-2' class="card border border-2 border-dark p-3 ms-4 me-4 mt-2 mb-2">
+
+                    <div class="card-header text-center mb-2"> FILTER TASK LIST</div>
+
+                    <div class="card-body">
+                        <div class="input-group mb-3">
+                            <input type="text" id="filter" class="form-control" placeholder="Filter Your Task Here.."
+                                autocomplete="off">
+                        </div>
+
+                        <ul id='list-items' class="list-group">
+                            <!-- <a href="#" class="list-group-item list-group-item-action  list-group-item-secondary list-group-item-warning">List Item 2 <i class="fas fa-trash-alt m-1"></i> </a> -->
+                        </ul>
+                        <div class="d-grid gap-2 d-md-block mt-2">
+                            <button id='clear-btn' class="btn btn-outline-dark" type="button">Clear All</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+
+    <script src="app.js"></script>
+    <script src="app2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
